@@ -6,7 +6,7 @@ Berikut contoh Membuat Direkoti Project_File_Management:
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/1uGD0yYbK3pcZeDmzUjOqgJjVPHpdpGU7/view?usp=drivesdk
-(```#lubuntu@rasyidabdillahalhasni:~ mkdir Project_File_Management```)
+`` `#lubuntu@rasyidabdillahalhasni:~ mkdir Project_File_Management` ``
 
 Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membuat folder document images archives logs:
 
