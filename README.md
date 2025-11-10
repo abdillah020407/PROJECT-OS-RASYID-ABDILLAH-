@@ -7,7 +7,7 @@ Berikut contoh Membuat Direkoti Project_File_Management:
 [Deskripsi gambar]
 https://drive.google.com/file/d/1uGD0yYbK3pcZeDmzUjOqgJjVPHpdpGU7/view?usp=drivesdk
 
-#lubuntu@rasyidabdillahalhasni:~ ```mkdir Project_File_Management```
+#lubuntu@rasyidabdillahalhasni:~ ```mkdir Project_File_Management
 
 Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membuat folder document images archives logs:
 
@@ -23,7 +23,7 @@ Berikut contoh perintah membuat 20 file sample:
 [Deskripsi gambar]
 https://drive.google.com/file/d/11CEYyAhprFXzhwDQfVQB4XVEkmsoTgo5/view?usp=drivesdk
 
-```touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log```
+```#touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log```
 
 Berikut contoh perintah memasukan sebuah teks ke masing masing file yang berbeda:
 
