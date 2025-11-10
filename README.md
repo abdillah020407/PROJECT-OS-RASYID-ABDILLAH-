@@ -3,18 +3,25 @@ Project Based Learing 1
 
 LANGKAH 1 BUAT STRUKTUR DIREKTORI
 Berikut contoh Membuat Direkoti Project_File_Management:
+
 [Deskripsi gambar]
 https://drive.google.com/file/d/1uGD0yYbK3pcZeDmzUjOqgJjVPHpdpGU7/view?usp=drivesdk
+
 #lubuntu@rasyidabdillahalhasni:~ mkdir Project_File_Management
+
 Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membuat folder document images archives logs:
+
 [Deskripsi gambar]
 https://drive.google.com/file/d/1R6KeM-DtQd3YN68-NzfANKA4DSpSQNbw/view?usp=drivesdk
+
 cd Project_File_Management
 mkdir document images archives logs
 
 Berikut contoh perintah membuat 20 file sample:
+
 [Deskripsi gambar]
 https://drive.google.com/file/d/11CEYyAhprFXzhwDQfVQB4XVEkmsoTgo5/view?usp=drivesdk
+
 touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log
 
 Berikut contoh perintah memasukan sebuah teks ke masing masing file yang berbeda:
@@ -77,7 +84,8 @@ Buat file Search_file.sh
 nano search_file.sh
 [Deskripsi gambar]
 https://drive.google.com/file/d/1G218IeDR3EQx6v5crea_Zdm5P5tDhMjG/view?usp=drivesdk
-#!/bin/bash
+
+```#!/bin/bash
 # Script: search_files.sh
 # Fungsi: Mencari file berdasarkan nama, ukuran, atau konten
 
@@ -111,9 +119,10 @@ case $opsi in
 esac
 
 Beri Hak Eksekusi
-chmod +x search_file.sh
+```chmod +x search_file.sh
+
 Eksekusi File Yang Telah Dibuat
-./search_file.sh
+```./search_file.sh
 
 Penjelasan:
 
@@ -127,11 +136,12 @@ Langkah 4 – Generate Laporan File Sistem
 Script ini akan membuat laporan statistik tentang file di direktori proyek, lalu menyimpannya ke report.txt.
 
 Buat file report.sh
-nano report.sh
+```nano report.sh
+
 [Deskripsi gambar]
 https://drive.google.com/file/d/1tH0NmVueD0Q7BRD5PX78ycUl8cNw_oT-/view?usp=drivesdk
 
-#!/bin/bash
+```#!/bin/bash
 # Script: generate_report.sh
 # Fungsi: Membuat laporan statistik file sistem
 
@@ -163,14 +173,15 @@ echo "" >> report.txt
 echo "=== Selesai! Laporan disimpan di report.txt ==="
 
 Beri Hak Akses Eksekusi
-chmod +x report.sh
+```chmod +x report.sh
+
 Eksekusi File Yang Telah Di Buat
-./report.sh
+```./report.sh
 
 Jadi,Ketika Di jalankan Perintah (./report.sh) maka laopran akan otomatis tersimpan di file report.sh
 
 Melihat isi Laporan
-cat report.sh
+```cat report.sh
 
 Penjelasan:
 
