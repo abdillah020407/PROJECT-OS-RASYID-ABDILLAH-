@@ -15,7 +15,7 @@ Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membu
 https://drive.google.com/file/d/1R6KeM-DtQd3YN68-NzfANKA4DSpSQNbw/view?usp=drivesdk
 
 cd Project_File_Management
-` ``` mkdir document images archives logs`
+` ``` ` mkdir document images archives logs` ``` `
 
 Berikut contoh perintah membuat 20 file sample:
 
