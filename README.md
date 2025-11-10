@@ -63,11 +63,10 @@ find . -maxdepth 1 -type f -name "*.txt" -exec mv {} documents/ \;
 find . -maxdepth 1 -type f -name "*.jpg" -exec mv {} images/ \;
 find . -maxdepth 1 -type f -name "*.pdf" -exec mv {} archives/ \;
 find . -maxdepth 1 -type f -name "*.log" -exec mv {} logs/ \;
-```
 # Konfirmasi hasil
 echo "File berhasil dipindahkan ke folder sesuai ekstensi!"
 ls documents images archives logs
-
+```
 Beri Hak Eksekusi:
 chmod +x organisasi_file.sh
 Eksekusi Script Yang Telah Dibuat:
