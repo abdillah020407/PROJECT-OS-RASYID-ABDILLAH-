@@ -5,14 +5,14 @@ LANGKAH 1 BUAT STRUKTUR DIREKTORI
 Berikut contoh Membuat Direkoti Project_File_Management:
 
 [Deskripsi gambar]
-https://drive.google.com/file/d/1uGD0yYbK3pcZeDmzUjOqgJjVPHpdpGU7/view?usp=drivesdk
+https://drive.google.com/file/d/1L4sGjukgG4YLizYlqcjzIUjdJECv2eKd/view?usp=drivesdk
 ```
 #lubuntu@rasyidabdillahalhasni:~mkdir Project_File_Management
 ```
 Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membuat folder document images archives logs:
 
 [Deskripsi gambar]
-https://drive.google.com/file/d/1R6KeM-DtQd3YN68-NzfANKA4DSpSQNbw/view?usp=drivesdk
+https://drive.google.com/file/d/1zuJCXEvDvjBy6W82IQUoiA6-zAywiIjz/view?usp=drivesdk
 ```
 cd Project_File_Management
 ```
@@ -22,14 +22,14 @@ mkdir document images archives logs
 Berikut contoh perintah membuat 20 file sample:
 
 [Deskripsi gambar]
-https://drive.google.com/file/d/11CEYyAhprFXzhwDQfVQB4XVEkmsoTgo5/view?usp=drivesdk
+https://drive.google.com/file/d/1a6sLVdAczsUvmNRA1r1nOjWRvVxSt0Z-/view?usp=drivesdk
 ```
 touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log
 ```
 Berikut contoh perintah memasukan sebuah teks ke masing masing file yang berbeda:
 
 [Deskripsi gambar]
-https://drive.google.com/file/d/1BlCF5n1CQ_JFj1_dGs_Lp92v5K8re5Jj/view?usp=drivesdk
+https://drive.google.com/file/d/1hvRiMQlNIGRIR4gKuczb0L9GH3yDzrIj/view?usp=drivesdk
 ```
 echo "Ini adalah dokumen contoh" > file1.txt
 ```
@@ -56,7 +56,7 @@ nano organisasi_file.sh
 ISI SCRIPT
 
 [Deskripsi gambar]
-https://drive.google.com/file/d/1my207FH6ut7MfTj-YnCXlfh5BhiJlfyo/view?usp=drivesdk
+https://drive.google.com/file/d/1WZQdy_SeRjFebAJ43LZPhM1CW8xHVeqh/view?usp=drivesdk
 ```
 #!/bin/bash
 # Script untuk mengorganisasi file berdasarkan ekstensi
@@ -97,7 +97,7 @@ Buat file Search_file.sh
 nano search_file.sh
 ```
 [Deskripsi gambar]
-https://drive.google.com/file/d/1G218IeDR3EQx6v5crea_Zdm5P5tDhMjG/view?usp=drivesdk
+https://drive.google.com/file/d/14TKbpJ_JnpLs-r2yCJ0n1BGOo1eaUIVb/view?usp=drivesdk
 ```
 #!/bin/bash
 # Script: search_files.sh
@@ -156,7 +156,7 @@ Buat file report.sh
 nano report.sh
 ```
 [Deskripsi gambar]
-https://drive.google.com/file/d/1tH0NmVueD0Q7BRD5PX78ycUl8cNw_oT-/view?usp=drivesdk
+https://drive.google.com/file/d/1Sp3yPEKFRZ_xYgVAYLCuMd84KxQ49Mxa/view?usp=drivesdk
 ```
 #!/bin/bash
 # Script: generate_report.sh
