@@ -56,6 +56,7 @@ https://drive.google.com/file/d/1my207FH6ut7MfTj-YnCXlfh5BhiJlfyo/view?usp=drive
 ```
 #!/bin/bash
 # Script untuk mengorganisasi file berdasarkan ekstensi
+
 # Pastikan berada di direktori proyek
 cd ~/project_file_management
 # Pindahkan file sesuai ekstensi
@@ -63,6 +64,7 @@ find . -maxdepth 1 -type f -name "*.txt" -exec mv {} documents/ \;
 find . -maxdepth 1 -type f -name "*.jpg" -exec mv {} images/ \;
 find . -maxdepth 1 -type f -name "*.pdf" -exec mv {} archives/ \;
 find . -maxdepth 1 -type f -name "*.log" -exec mv {} logs/ \;
+
 # Konfirmasi hasil
 echo "File berhasil dipindahkan ke folder sesuai ekstensi!"
 ls documents images archives logs
