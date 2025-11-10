@@ -156,7 +156,7 @@ Buat file report.sh
 nano report.sh
 ```
 [Deskripsi gambar]
-https://drive.google.com/file/d/1Sp3yPEKFRZ_xYgVAYLCuMd84KxQ49Mxa/view?usp=drivesdk
+https://drive.google.com/file/d/1W_psqaebKbLwxg96HjcFDA4MnnvOgSYG/view?usp=drivesdk
 ```
 #!/bin/bash
 # Script: generate_report.sh
