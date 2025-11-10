@@ -15,39 +15,45 @@ Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membu
 https://drive.google.com/file/d/1R6KeM-DtQd3YN68-NzfANKA4DSpSQNbw/view?usp=drivesdk
 
 cd Project_File_Management
-mkdir document images archives logs
+` ``` `mkdir document images archives logs
 
 Berikut contoh perintah membuat 20 file sample:
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/11CEYyAhprFXzhwDQfVQB4XVEkmsoTgo5/view?usp=drivesdk
 
-touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log
+` ``` `touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log
 
 Berikut contoh perintah memasukan sebuah teks ke masing masing file yang berbeda:
+
 [Deskripsi gambar]
 https://drive.google.com/file/d/1BlCF5n1CQ_JFj1_dGs_Lp92v5K8re5Jj/view?usp=drivesdk
-echo "Ini adalah dokumen contoh" > file1.txt
-echo "Data gambar" > file11.jpg
-echo "Log sistem contoh" > file20.log
+
+` ``` `echo "Ini adalah dokumen contoh" > file1.txt
+
+` ``` `echo "Data gambar" > file11.jpg
+
+` ``` `echo "Log sistem contoh" > file20.log
 
 Penjelasan:
 
-mkdir → membuat folder baru.
+` ``` `mkdir → membuat folder baru.
 
-touch → membuat file kosong dengan cepat.
+` ``` `touch → membuat file kosong dengan cepat.
 
-echo → menulis teks ke dalam file.
+` ``` `echo → menulis teks ke dalam file.
 
 LANGKAH 2 SCRIPT ORGANISASI FILE
 
 Buat Script Organisasi File di dalam direktori projek:
-nano organisasi_file.sh
+
+` ``` `nano organisasi_file.sh
 
 ISI SCRIPT
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/1my207FH6ut7MfTj-YnCXlfh5BhiJlfyo/view?usp=drivesdk
+
 #!/bin/bash
 # Script untuk mengorganisasi file berdasarkan ekstensi
 
@@ -81,11 +87,13 @@ LANGKAH 3 FUNGSI PENCARIAN
 Karena saya sudah punya script pencarian file yang bisa mencari berdasarkan nama, ukuran, dan isi konten. Jadi Saya Langsung Buat Fungsi pencariannya.
 
 Buat file Search_file.sh
+
 nano search_file.sh
+
 [Deskripsi gambar]
 https://drive.google.com/file/d/1G218IeDR3EQx6v5crea_Zdm5P5tDhMjG/view?usp=drivesdk
 
-``` #!/bin/bash
+#!/bin/bash
 # Script: search_files.sh
 # Fungsi: Mencari file berdasarkan nama, ukuran, atau konten
 
@@ -119,10 +127,10 @@ case $opsi in
 esac
 
 Beri Hak Eksekusi
-``` chmod +x search_file.sh
+chmod +x search_file.sh
 
 Eksekusi File Yang Telah Dibuat
-``` ./search_file.sh
+./search_file.sh
 
 Penjelasan:
 
@@ -136,12 +144,12 @@ Langkah 4 – Generate Laporan File Sistem
 Script ini akan membuat laporan statistik tentang file di direktori proyek, lalu menyimpannya ke report.txt.
 
 Buat file report.sh
-```nano report.sh
+nano report.sh
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/1tH0NmVueD0Q7BRD5PX78ycUl8cNw_oT-/view?usp=drivesdk
 
-```#!/bin/bash
+#!/bin/bash
 # Script: generate_report.sh
 # Fungsi: Membuat laporan statistik file sistem
 
@@ -173,15 +181,15 @@ echo "" >> report.txt
 echo "=== Selesai! Laporan disimpan di report.txt ==="
 
 Beri Hak Akses Eksekusi
-```chmod +x report.sh
+chmod +x report.sh
 
 Eksekusi File Yang Telah Di Buat
-```./report.sh
+./report.sh
 
 Jadi,Ketika Di jalankan Perintah (./report.sh) maka laopran akan otomatis tersimpan di file report.sh
 
 Melihat isi Laporan
-```cat report.sh
+cat report.sh
 
 Penjelasan:
 
