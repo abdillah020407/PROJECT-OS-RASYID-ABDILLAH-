@@ -15,51 +15,49 @@ Berikut contoh perintah Berpindah Direktori ke Project_File_Management dan Membu
 https://drive.google.com/file/d/1R6KeM-DtQd3YN68-NzfANKA4DSpSQNbw/view?usp=drivesdk
 
 cd Project_File_Management
-` ``` `mkdir document images archives logs
+` ``` mkdir document images archives logs`
 
 Berikut contoh perintah membuat 20 file sample:
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/11CEYyAhprFXzhwDQfVQB4XVEkmsoTgo5/view?usp=drivesdk
 
-` ``` `touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log
+` ``` touch file{1..10}.txt file{11..15}.jpg file{16..18}.pdf file{19..20}.log`
 
 Berikut contoh perintah memasukan sebuah teks ke masing masing file yang berbeda:
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/1BlCF5n1CQ_JFj1_dGs_Lp92v5K8re5Jj/view?usp=drivesdk
 
-` ``` `echo "Ini adalah dokumen contoh" > file1.txt
+` ``` echo "Ini adalah dokumen contoh" > file1.txt`
 
-` ``` `echo "Data gambar" > file11.jpg
+` ``` echo "Data gambar" > file11.jpg`
 
-` ``` `echo "Log sistem contoh" > file20.log
+` ``` echo "Log sistem contoh" > file20.log`
 
 Penjelasan:
 
-` ``` `mkdir → membuat folder baru.
+mkdir → membuat folder baru.
 
-` ``` `touch → membuat file kosong dengan cepat.
+touch → membuat file kosong dengan cepat.
 
-` ``` `echo → menulis teks ke dalam file.
+echo → menulis teks ke dalam file.
 
 LANGKAH 2 SCRIPT ORGANISASI FILE
 
 Buat Script Organisasi File di dalam direktori projek:
 
-` ``` `nano organisasi_file.sh
+` ``` nano organisasi_file.sh`
 
 ISI SCRIPT
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/1my207FH6ut7MfTj-YnCXlfh5BhiJlfyo/view?usp=drivesdk
 
-#!/bin/bash
+` ```#!/bin/bash
 # Script untuk mengorganisasi file berdasarkan ekstensi
-
 # Pastikan berada di direktori proyek
 cd ~/project_file_management
-
 # Pindahkan file sesuai ekstensi
 find . -maxdepth 1 -type f -name "*.txt" -exec mv {} documents/ \;
 find . -maxdepth 1 -type f -name "*.jpg" -exec mv {} images/ \;
