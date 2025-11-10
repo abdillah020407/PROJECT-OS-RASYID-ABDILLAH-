@@ -85,7 +85,7 @@ nano search_file.sh
 [Deskripsi gambar]
 https://drive.google.com/file/d/1G218IeDR3EQx6v5crea_Zdm5P5tDhMjG/view?usp=drivesdk
 
-```#!/bin/bash
+``` #!/bin/bash
 # Script: search_files.sh
 # Fungsi: Mencari file berdasarkan nama, ukuran, atau konten
 
@@ -119,10 +119,10 @@ case $opsi in
 esac
 
 Beri Hak Eksekusi
-```chmod +x search_file.sh
+``` chmod +x search_file.sh
 
 Eksekusi File Yang Telah Dibuat
-```./search_file.sh
+``` ./search_file.sh
 
 Penjelasan:
 
