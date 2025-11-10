@@ -53,8 +53,8 @@ ISI SCRIPT
 
 [Deskripsi gambar]
 https://drive.google.com/file/d/1my207FH6ut7MfTj-YnCXlfh5BhiJlfyo/view?usp=drivesdk
-
-```#!/bin/bash
+```
+#!/bin/bash
 # Script untuk mengorganisasi file berdasarkan ekstensi
 # Pastikan berada di direktori proyek
 cd ~/project_file_management
